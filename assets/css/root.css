@@ -1,0 +1,40 @@
+:root{
+    --fs:70px;
+    --fs:50px;
+    --fs:30px;
+}
+.p-section-1{
+    font-size: var(--fs);
+}
+@media (min-width:992px) {
+    :root{
+        --fs:70px;
+    }
+    .p-section-1{
+        font-size: var(--fs);
+    }
+}
+@media (min-width:768px) {
+    :root{
+        --fs:50px;
+    }
+    .p-section-1
+    {
+        font-size: var(--fs);
+    }
+    
+}
+@media (max-width:576px) {
+    :root{
+        --fs:30px;
+    }
+    .p-section-1,
+    .header,
+    .h1-section-4,
+    .h2-section-5,
+    heading-12
+    {
+        font-size: var(--fs);
+    }
+    
+}

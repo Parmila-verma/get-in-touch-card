@@ -1,0 +1,248 @@
+@import url(./root.css);
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Exo+2:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Yellowtail&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+.section-1,
+.section-2,
+.section-3,
+.section-4,
+.section-5,
+.section-6,
+.section-7
+ {
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.874);
+    color: #fff;
+}
+
+
+
+.container {
+    max-width: 1320px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: -12px;
+    margin-right: -12px;
+}
+
+.col-1 {
+    width: 8.33%;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.col-2 {
+    width: 16.66%;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.col-3 {
+    width: 25%;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.col-4 {
+    width: 33.33%;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.col-5 {
+    width: 41.66%;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.col-6 {
+    width: 50%;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.col-7 {
+    width: 58.33%;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.col-8 {
+    width: 66.66%;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.col-9 {
+    width: 75%;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.col-10 {
+    width: 83.33%;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.col-11 {
+    width: 91.66%;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.col-12 {
+    width: 100%;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.text-grey {
+    color: rgba(123, 123, 123, 1);
+}
+
+.text-black {
+    color: rgba(0, 0, 0, 1);
+}
+
+.text-blue {
+    color: rgba(30, 14, 98, 1);
+}
+
+.text-orangered {
+    color: rgba(255, 0, 0, 1);
+}
+
+.text-purple {
+    color: rgb(188, 114, 208);
+}
+
+.bg-green {
+    background: rgba(37, 218, 197, 1);
+    color: #fff;
+}
+
+.bg-black {
+    background-color: black;
+    color: #fff;
+}
+
+.bg-grey {
+    background: rgba(235, 234, 237, 1);
+}
+
+.bg-blue {
+    background: #2C49FE;
+    color: #fff;
+}
+
+.bg-black {
+    background-color: #000;
+}
+
+.text-white {
+    color: #fff;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.mb-24 {
+    margin-bottom: 24px;
+}
+
+.header {
+    font-size: 42px;
+    line-height: 52px;
+    letter-spacing: -0, 4000000596045px;
+}
+
+.pd-12 {
+    padding: 12px;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.card-1{
+    width: 850px;
+    height: 550px;
+    background-color: #fff;
+    border: 1px solid white;
+}
+.position-relative{
+    position: relative;
+}
+.right-top{
+position: absolute;
+right: 0;
+top: 0;
+}
+.left-bottom{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+.right-bottom{
+position: absolute;
+left: 0;
+bottom: 0;
+}
+.btn-1{
+    position: absolute;
+    right: 20px;
+    top: 40px;
+}
+.paragraph-1{
+    font-family: "poppins";
+font-size: 18px;
+font-weight: 400;
+line-height: 29px;
+}
+.heading-1{
+    font-family: "Yellowtail";
+font-size: 77.54px;
+font-weight: 400;
+line-height: 105.67px;
+}
+
+.btn-section-1{
+    position: absolute;
+    right: 42%;
+    top: 75%;
+    width: 129px;
+height: 40px;
+border: 2px solid rgba(77, 115, 248, 1);
+border-radius: 2rem;
+background: rgba(77, 115, 248, 1);
+}
+.btn-section-1:hover{
+    cursor: pointer;
+}
+
+
