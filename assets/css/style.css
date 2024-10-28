@@ -7,8 +7,8 @@
     list-style-type: none;
     text-decoration: none;
     box-sizing: border-box;
-     /* outline: 1px dotted blue;  */
-    
+    /* outline: 1px dotted blue;  */
+
 }
 
 .section-1,
@@ -39,7 +39,7 @@
     padding-right: 12px;
 }
 
-.container-11{
+.container-11 {
     max-width: 1030px;
     margin-left: auto;
     margin-right: auto;
@@ -47,7 +47,7 @@
     padding-right: 12px;
 }
 
-.container-9{
+.container-9 {
     max-width: 970px;
     margin-left: auto;
     margin-right: auto;
@@ -245,6 +245,10 @@
     font-family: 500;
 }
 
+.fw-400 {
+    font-weight: 400;
+}
+
 .fw-600 {
     font-weight: 600;
 }
@@ -272,7 +276,8 @@
 .max-width-400 {
     max-width: 400vh;
 }
-.pd-top-bottom-70{
+
+.pd-top-bottom-70 {
     padding-top: 70px;
     padding-bottom: 70px;
 }
@@ -293,11 +298,13 @@
     align-items: center;
 }
 
+
 /* section-1 */
 .p-section-1 {
     color: #fff;
     text-align: center;
-    max-width: 1207px;
+    /* max-width: 1207px; */
+    line-height: 90px;
 }
 
 /*section-3*/
@@ -363,6 +370,7 @@
     font-weight: 600;
     line-height: 36px;
     text-align: left;
+    padding-top: 10px;
 }
 
 .p-section-2 {
@@ -374,18 +382,19 @@
 .card-section-2 {
     border-radius: 20px;
     border: 1px solid #00000033;
-    padding: 25px;
+    padding: 30px;
 
 }
 
 .p-2 {
     padding-left: 10px;
+    color: rgba(102, 102, 102);
+
 }
 
 .svg-2 {
     display: flex;
     align-items: center;
-    /* text-indent: 32px;*/
 }
 
 .align-item-center {
@@ -394,7 +403,7 @@
 
 .card-section-2:hover {
     box-shadow: 0px 8px 35px 0px rgba(0, 0, 0, 0.1);
-    cursor: pointer;
+    border: #fff;
 }
 
 .btn-section-2 {
@@ -408,6 +417,14 @@
     color: #fff;
     display: flex;
     font-size: 16px;
+    cursor: pointer;
+}
+
+.btn-section-2:hover {
+    background-color: #fff;
+    color: #2C49FE;
+    border: 1px solid #2C49FE;
+    box-shadow: 0 10px 10px;
 }
 
 .border-radius-img {
@@ -474,6 +491,7 @@
     margin-bottom: 20px;
     margin-top: 10px;
     color: rgba(115, 115, 115, 1);
+    font-family: "Montserrat";
 }
 
 .card-section-5 {
@@ -501,9 +519,13 @@
     background-color: #B6D7FF;
 }
 
+.max-width-200 {
+    max-width: 200px;
+}
+
 /*section-6*/
 .h2-section-6 {
-     letter-spacing: 2px;
+    letter-spacing: 2px;
     font-weight: 50px;
     padding-left: 20px;
     align-items: left;
@@ -511,13 +533,17 @@
     text-indent: 20px;
 }
 
+.heading-6 {
+    font-weight: 600;
+}
+
 
 .p-section-6 {
     font-size: 16px;
     color: rgba(21, 20, 57, 0.4);
-   line-height: 25px;
-   padding-left: 20px;
-   font-weight: 400;
+    line-height: 25px;
+    padding-left: 20px;
+    font-weight: 400;
 }
 
 .sm-box-6 {
@@ -543,59 +569,102 @@
     float: right;
     background-color: #fff;
     cursor: pointer;
+}
 
+.btn-section-6:hover {
+    background-color: rgba(235, 234, 237, 1);
+}
 
-
+.pd-50 {
+    padding: 50px;
 }
 
 /*section-7*/
+.heading-7 {
+    font-weight: 600;
+}
+
 .table-7 {
     border-collapse: collapse;
     width: 100%;
+    height: 100%;
     text-align: center;
 }
 
 .th-7,
 .td-7 {
-    border: 2px solid rgba(235, 234, 237, 1);
+    border: 2px solid rgba(235, 234, 237);
     padding: 10px;
+    line-height: 40px;
+}
+
+.td-7a {
+    border: 2px solid rgba(235, 234, 237);
+    padding: 20px;
+    line-height: 40px;
 }
 
 .btn-section-7 {
     width: 230px;
     height: 50px;
     border-radius: 25px;
-    border: 2px solid rgba(235, 234, 237, 1);
+    border: 2px solid rgba(235, 234, 237);
     margin: 15px;
     font-size: 18px;
     cursor: pointer;
 }
 
+.btn1-section-7 {
+    width: 230px;
+    height: 50px;
+    border-radius: 25px;
+    border: #fff;
+    margin: 15px;
+    font-size: 18px;
+    cursor: pointer;
+
+}
+
 .td1 {
-    /*border-collapse: collapse;*/
+    border-collapse: collapse;
     padding: 10px;
-    border: 1px solid rgba(235, 234, 237, 1);
+    border: 2px solid rgba(235, 234, 237);
     margin-top: 10px;
     color: rgba(21, 20, 57, 0.4);
     text-align: right;
     text-transform: uppercase
 }
 
+
 .td2 {
     font-size: 58px;
     line-height: 70px;
-    border: 2px solid rgba(235, 234, 237, 1);
+    border: 2px solid rgba(235, 234, 237);
     position: relative;
-}
-.dollor{
-    position: absolute;
-  left: 130px;
-}
-
-.pd-10
-{
     padding: 20px;
 }
+
+.bg-grey1 {
+    background-color: rgba(245, 245, 246);
+    border: 2px solid rgba(235, 234, 237);
+}
+
+.dollor {
+    position: absolute;
+    left: 130px;
+}
+
+
+.pd-10 {
+    padding: 20px;
+}
+
+.pd-top-bottom-10 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
 
 .basic7 {
     margin-bottom: 8px;
@@ -625,7 +694,14 @@
 
 .p2-section-8 {
     font-size: 16px;
-    line-height: 30px;
+    color: rgba(30, 14, 98, 1);
+    font-weight: 400;
+    font-family: "DM Sans";
+    font-size: 16px;
+    line-height: 26px;
+    text-align: left;
+
+
 }
 
 
@@ -643,6 +719,13 @@
     padding-right: 20px;
     padding-top: 8px;
     padding-bottom: 8px;
+}
+
+.btn-section-8:hover {
+    background-color: #fff;
+    color: rgba(37, 218, 197, 1);
+    border: 2px solid rgba(37, 218, 197, 1);
+    box-shadow: 0 10px 10px;
 }
 
 .input-section-8 {
@@ -671,11 +754,12 @@
 }
 
 .grey-line8 {
-    padding-top: 40px;
+    padding-top: 20px;
     border: 2px solid rgba(235, 234, 237, 1);
     border-bottom: #fff;
     border-left: #fff;
     border-right: #EBEAED;
+    margin-top: 20px;
 }
 
 /*section-9*/
@@ -712,6 +796,8 @@
     padding-bottom: 20px;
     /* padding:25px 30px; */
     margin-top: 30px;
+    max-width: 250px;
+    min-height: 326px;
 }
 
 .btn-9 {
@@ -723,7 +809,14 @@
     padding-bottom: 10px;
     padding-left: 20px;
     padding-right: 20px;
+    cursor: pointer;
+}
 
+.btn-9:hover {
+    background-color: #fff;
+    color: rgba(37, 218, 197, 1);
+    border: 2px solid rgba(37, 218, 197, 1);
+    box-shadow: 0 10px 10px;
 }
 
 .box-heading-9 {
@@ -735,18 +828,20 @@
 
 .heading-9 {
     padding: 50px;
+    font-weight: 600;
 }
-/* .max-width-900{
-    max-width: 200;
-} */
 
 /* section-10 */
+.heading-10 {
+    font-weight: 600;
+}
 
 .table-10 {
     border-spacing: 0;
     font-size: 16px;
     line-height: 26px;
     width: 100%;
+    height: 100%;
 }
 
 .tr-10:nth-child(even) {
@@ -755,50 +850,48 @@
 
 /*section-11*/
 .box-11 {
-   
-    /* height: 550px; */
+    max-width: 470px;
+    min-height: 450px;
     padding: 20px;
     border-radius: 1rem;
     max-width: 370px;
     max-height: 530px;
-    padding-bottom: 40px;  
+    padding-bottom: 40px;
+    background-color: rgba(249, 249, 250);
 }
 
-.e-mail-11 {
-    padding-right: 30px;
-    padding-top: 10px;
-    padding-left: 20px;
-    padding-bottom: 10px;
-    border-radius: 2rem;
-    border: 2px solid rgba(255, 255, 255, 1);
-   
-    font-size: medium;
-}
-
-.message-11 {
-    padding-right: 30px;
-    padding-top: 10px;
-    border-radius: 10px;
-    border: 2px solid rgba(255, 255, 255, 1);
-    padding-left: 20px;
-    font-size: medium;
-    padding-bottom: 110px;
-}
-
-.name-11 {
-   
+.form-11 {
+    padding-left: 10px;
     padding-top: 10px;
     padding-bottom: 10px;
     border-radius: 2rem;
-    border: 2px solid rgba(255, 255, 255, 1);
-    padding-left: 20px;
-    font-size: medium;
+    border: 1px solid rgba(235, 234, 237);
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-family: "DM Sans";
+    padding-right: 50px;
+
+
 }
+
+.form-11a {
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 1px solid rgba(237, 236, 239);
+    font-family: "DM Sans";
+    margin-top: 10px;
+    resize: none;
+
+
+}
+
+
 
 .btn-11 {
 
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 8px;
+    padding-bottom: 8px;
     padding-right: 20px;
     padding-left: 20px;
     margin-left: 10px;
@@ -806,11 +899,18 @@
     border: 2px solid rgba(37, 218, 197, 1);
     font-size: medium;
     cursor: pointer;
-}
-.heading-11 {
-font-size: 22px
+    font-family: "DM Sans";
 }
 
+.heading-11 {
+    font-size: 22px
+}
+
+.btn-11:hover {
+    background-color: #fff;
+    color: rgba(37, 218, 197, 1);
+    box-shadow: 0 10px 10px rgba(37, 218, 197, 1)
+}
 
 
 
@@ -835,14 +935,21 @@ font-size: 22px
 }
 
 .heading-12 {
-    padding-top: 65px;
+    padding-top: 25px;
     font-size: 56px;
     font-weight: 600;
+    font-family: "Plus Jakarta Sans";
+
+    line-height: 70.56px;
+
 }
 
 .content-12 {
     font-size: 18px;
-    font-weight: 500;
+    font-family: "Plus Jakarta Sans";
+    font-weight: 400;
+    line-height: 28.8px;
+
 }
 
 .btn-12 {
@@ -856,6 +963,11 @@ font-size: 22px
     padding-top: 15px;
     padding-bottom: 15px;
     cursor: pointer;
+}
+
+.btn-12:hover {
+    box-shadow: 0 10px 10px;
+    color: #000;
 }
 
 
@@ -889,6 +1001,7 @@ font-size: 22px
     .mb-sm-0 {
         margin-bottom: 0;
     }
+ 
 }
 
 
